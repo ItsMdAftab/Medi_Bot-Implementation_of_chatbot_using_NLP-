@@ -1,3 +1,6 @@
+Here’s the complete **README.md** for your **MediBot** project, incorporating your requested additions:
+
+```markdown
 # MediBot - Medicine Information Chatbot
 
 ## Overview
@@ -48,4 +51,45 @@ MediBot is a chatbot built using Natural Language Processing (NLP) techniques to
 
    ```bash
    git clone https://github.com/yourusername/medibot.git
+   ```
 
+2. Install the required dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Run the application:
+
+   ```bash
+   streamlit run app.py
+   ```
+
+---
+
+## Usage
+
+Once the app is running, simply type the name of a medication in the chat interface to get information about it. The bot will respond with relevant details about the medication's usage, side effects, and dosage.
+
+---
+
+## Contributing
+
+Feel free to fork this repository, submit issues, or create pull requests. Contributions are welcome!
+
+---
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+Thank you for using MediBot! Stay healthy and informed.
+
+---
+
+This **README.md** provides a clear overview of your project, how to use it, and how to contribute. Let me know if you need any further adjustments!
+```
+
+This updated **README.md** includes the installation instructions, how to run the application, and a brief usage guide. Let me know if you'd like any further changes!
