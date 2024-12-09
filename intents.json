@@ -1,0 +1,425 @@
+[
+    {
+        "tag": "greeting",
+        "patterns": ["Hi", "Hello", "Hey", "How are you"],
+        "responses": ["Hello! How can I assist you with your medicine queries today?", "Hi there! What medicine information do you need?", "Hey! How can I help you today?"]
+    },
+    {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye", "Take care"],
+        "responses": ["Goodbye! Take care of your health!", "See you later! Stay healthy!", "Goodbye! Feel free to reach out if you have more questions!"]
+    },
+    {
+        "tag": "thanks",
+        "patterns": ["Thank you", "Thanks", "Thanks a lot", "I appreciate it"],
+        "responses": ["You're welcome! Stay healthy!", "No problem! Glad I could help!", "You're welcome! Take care!"]
+    },
+    {
+        "tag": "about",
+        "patterns": ["What can you do", "Who are you", "What are you", "What is your purpose"],
+        "responses": ["I am a medicine information chatbot here to provide details about various medications.", "My purpose is to assist you with information about medicines and their uses."]
+    },
+    {
+        "tag": "dolo_650_definition",
+        "patterns": ["Tell me about Dolo 650", "What is Dolo 650", "What is the composition of Dolo 650", "Explain Dolo 650"],
+        "responses": [
+            "Dolo 650 is a brand name for a tablet that contains Paracetamol (also known as Acetaminophen). It is commonly used to relieve pain and reduce fever. The chemical composition of Dolo 650 consists of 650 mg of Paracetamol per tablet.",
+            "Dolo 650 contains Paracetamol, an analgesic (pain reliever) and antipyretic (fever reducer). It is commonly prescribed for mild to moderate pain relief and fever management."
+        ]
+    },
+    {
+        "tag": "dolo_650_usage",
+        "patterns": ["What is Dolo 650 used for", "When to use Dolo 650", "Who can use Dolo 650", "How is Dolo 650 used", "What are the uses of Dolo 650"],
+        "responses": [
+            "Dolo 650 is commonly used to relieve pain caused by headaches, toothaches, backaches, body aches, and mild fever. It can also help reduce fever associated with cold or flu.",
+            "Dolo 650 is typically used for short-term relief of mild to moderate pain and to reduce fever. It can be taken by adults and children above a certain age (as advised by a doctor).",
+            "Dolo 650 should be taken when you experience pain or fever. It is commonly prescribed for conditions like headaches, mild arthritis, muscle pain, and fever due to colds or flu. Always follow your doctor’s instructions for usage."
+        ]
+    },
+    {
+        "tag": "dolo_650_side_effects",
+        "patterns": ["What are the side effects of Dolo 650", "Dolo 650 side effects", "Are there any side effects of Dolo 650", "What are the risks of taking Dolo 650"],
+        "responses": [
+            "Common side effects of Dolo 650 include nausea, vomiting, stomach upset, and dizziness. These symptoms are typically mild and temporary.",
+            "In rare cases, excessive use of Dolo 650 can lead to serious liver damage, especially when taken in higher-than-recommended doses. If you experience severe stomach pain, dark urine, or yellowing of the skin, seek medical help immediately.",
+            "Overdose of Dolo 650 can result in liver toxicity and other severe effects. It is important not to exceed the recommended dosage, and always follow your doctor's advice."
+        ]
+    },
+    {
+        "tag": "paracetamol_definition",
+        "patterns": ["Tell me about Paracetamol", "What is Paracetamol", "What is the composition of Paracetamol", "Explain Paracetamol"],
+        "responses": [
+            "Paracetamol, also known as Acetaminophen, is a commonly used over-the-counter pain reliever and fever reducer. It is widely used for treating mild to moderate pain such as headaches, body aches, and toothaches, as well as reducing fever.",
+            "Paracetamol is an analgesic (pain reliever) and antipyretic (fever reducer). The chemical composition includes the active ingredient Acetaminophen, which works by blocking chemicals in the brain that signal pain and fever."
+        ]
+    },
+    {
+        "tag": "paracetamol_usage",
+        "patterns": ["What is Paracetamol used for", "When to use Paracetamol", "Who can use Paracetamol", "How is Paracetamol used", "What are the uses of Paracetamol"],
+        "responses": [
+            "Paracetamol is commonly used to relieve mild to moderate pain caused by headaches, toothaches, muscle aches, backaches, and colds. It is also effective in reducing fever.",
+            "Paracetamol is often recommended for short-term use to treat pain from conditions like arthritis, menstrual cramps, or general body aches. It can be used by adults and children, but always according to dosage instructions or a doctor's advice.",
+            "Paracetamol is generally safe for short-term use in managing pain and fever. It is widely used for conditions like fever due to flu or cold, headaches, and post-surgery recovery. Always follow the prescribed dosage."
+        ]
+    },
+    {
+        "tag": "paracetamol_side_effects",
+        "patterns": ["What are the side effects of Paracetamol", "Paracetamol side effects", "Are there any side effects of Paracetamol", "What are the risks of taking Paracetamol"],
+        "responses": [
+            "Common side effects of Paracetamol include nausea, stomach upset, and allergic reactions such as rash. These are rare and usually occur at high doses.",
+            "In rare cases, taking excessive doses of Paracetamol can cause liver damage, especially in individuals with existing liver conditions or those who consume alcohol regularly. If you experience severe stomach pain, yellowing of the skin or eyes, or unusual fatigue, seek medical help immediately.",
+            "Paracetamol is generally safe when taken within recommended doses. However, an overdose can lead to liver toxicity, which can be life-threatening. Always adhere to the recommended dosage and consult a doctor if unsure."
+        ]
+    },
+    {
+        "tag": "paracetamol_dosage",
+        "patterns": ["What is the dosage of Paracetamol", "How much Paracetamol should I take", "Paracetamol dosage", "How to take Paracetamol"],
+        "responses": [
+            "The usual adult dose of Paracetamol is 500 mg to 1 gram every 4 to 6 hours, not exceeding 4 grams (4000 mg) in 24 hours.",
+            "For children, the dose varies based on age and weight. It is important to consult the package or your healthcare provider for the correct dosage. Do not exceed the recommended dose, as this can lead to liver damage.",
+            "Always follow the dosage instructions on the label or as prescribed by your doctor. If you accidentally take too much, contact a healthcare professional immediately."
+        ]
+    },
+    {
+        "tag": "ibuprofen_definition",
+        "patterns": ["Tell me about Ibuprofen", "What is Ibuprofen", "What is the composition of Ibuprofen", "Explain Ibuprofen"],
+        "responses": [
+            "Ibuprofen is a nonsteroidal anti-inflammatory drug (NSAID) used to reduce fever, pain, and inflammation. It works by inhibiting enzymes that cause inflammation in the body.",
+            "The active ingredient in Ibuprofen is Ibuprofen itself, which belongs to the class of NSAIDs. It is commonly used for pain relief, such as from arthritis, toothaches, and muscle aches, as well as for reducing fever."
+        ]
+    },
+    {
+        "tag": "ibuprofen_usage",
+        "patterns": ["What is Ibuprofen used for", "When to use Ibuprofen", "Who can use Ibuprofen", "How is Ibuprofen used", "What are the uses of Ibuprofen"],
+        "responses": [
+            "Ibuprofen is used to treat pain, inflammation, and fever. It is commonly prescribed for conditions like arthritis, menstrual cramps, muscle pain, toothaches, and headaches.",
+            "Ibuprofen can be used to reduce fever and treat mild to moderate pain. It is commonly used in conditions like flu, cold, and for post-surgical recovery.",
+            "Ibuprofen is generally recommended for adults and children (in appropriate doses). It is effective in treating pain from injuries, arthritis, and inflammation, as well as reducing fever."
+        ]
+    },
+    {
+        "tag": "ibuprofen_side_effects",
+        "patterns": ["What are the side effects of Ibuprofen", "Ibuprofen side effects", "Are there any side effects of Ibuprofen", "What are the risks of taking Ibuprofen"],
+        "responses": [
+            "Common side effects of Ibuprofen include nausea, headache, dizziness, stomach pain, and indigestion. These effects are usually mild.",
+            "Serious side effects can include gastrointestinal bleeding, kidney problems, and allergic reactions. It is important to take Ibuprofen with food to reduce stomach upset and to avoid taking it for extended periods without medical advice.",
+            "Ibuprofen should be avoided by individuals with a history of gastrointestinal issues, kidney disease, or severe allergic reactions to NSAIDs. Overuse can lead to serious side effects, so it is important to follow the recommended dosage."
+        ]
+    },
+    {
+        "tag": "ibuprofen_dosage",
+        "patterns": ["What is the dosage of Ibuprofen", "How much Ibuprofen should I take", "Ibuprofen dosage", "How to take Ibuprofen"],
+        "responses": [
+            "The usual adult dose of Ibuprofen is 200 to 400 mg every 4 to 6 hours as needed. Do not exceed 1200 mg per day unless prescribed by a doctor.",
+            "For children, the dosage depends on their age and weight. It is essential to follow the instructions on the label or consult a doctor before administering to children.",
+            "Do not take Ibuprofen for more than 3 days for fever or 10 days for pain without consulting a healthcare provider. Taking high doses for extended periods can increase the risk of side effects."
+        ]
+    },
+    {
+        "tag": "amoxicillin_definition",
+        "patterns": ["Tell me about Amoxicillin", "What is Amoxicillin", "What is the composition of Amoxicillin", "Explain Amoxicillin"],
+        "responses": [
+            "Amoxicillin is a broad-spectrum antibiotic used to treat bacterial infections. It belongs to the penicillin class of antibiotics and works by inhibiting the growth of bacteria.",
+            "Amoxicillin contains the active ingredient Amoxicillin and is commonly used to treat infections like pneumonia, bronchitis, and ear infections. It works by interfering with the bacteria’s cell wall synthesis."
+        ]
+    },
+    {
+        "tag": "amoxicillin_usage",
+        "patterns": ["What is Amoxicillin used for", "When to use Amoxicillin", "Who can use Amoxicillin", "How is Amoxicillin used", "What are the uses of Amoxicillin"],
+        "responses": [
+            "Amoxicillin is used to treat various bacterial infections such as ear infections, pneumonia, and infections of the urinary tract, skin, and throat.",
+            "It is prescribed for conditions like strep throat, bronchitis, and middle ear infections. Amoxicillin is not effective against viral infections like the flu or common cold.",
+            "Amoxicillin is typically used by individuals with bacterial infections. It should be used exactly as prescribed by a doctor, and the full course of the antibiotic should be completed to avoid resistance."
+        ]
+    },
+    {
+        "tag": "amoxicillin_side_effects",
+        "patterns": ["What are the side effects of Amoxicillin", "Amoxicillin side effects", "Are there any side effects of Amoxicillin", "What are the risks of taking Amoxicillin"],
+        "responses": [
+            "Common side effects of Amoxicillin include nausea, diarrhea, vomiting, and rash. These side effects are usually mild.",
+            "Serious side effects are rare but can include allergic reactions such as hives, swelling, or difficulty breathing. Prolonged use of antibiotics can also cause yeast infections.",
+            "If you experience any severe allergic reactions like swelling of the face, lips, or throat, or have any signs of an allergic reaction, seek medical attention immediately."
+        ]
+    },
+    {
+        "tag": "amoxicillin_dosage",
+        "patterns": ["What is the dosage of Amoxicillin", "How much Amoxicillin should I take", "Amoxicillin dosage", "How to take Amoxicillin"],
+        "responses": [
+            "The usual adult dose of Amoxicillin is 250 to 500 mg every 8 hours, or 500 to 875 mg every 12 hours, depending on the severity of the infection.",
+            "For children, the dosage depends on their age, weight, and the type of infection. A doctor will prescribe the correct dosage based on these factors.",
+            "Amoxicillin should be taken as prescribed for the full duration, even if symptoms improve, to ensure the infection is completely cleared. Do not skip doses or stop taking the medication early."
+        ]
+    },
+    {
+        "tag": "azithromycin_definition",
+        "patterns": ["Tell me about Azithromycin", "What is Azithromycin", "What is the composition of Azithromycin", "Explain Azithromycin"],
+        "responses": [
+            "Azithromycin is an antibiotic used to treat a variety of bacterial infections, including respiratory infections, skin infections, ear infections, and sexually transmitted diseases.",
+            "Azithromycin contains the active ingredient Azithromycin and works by inhibiting bacterial protein synthesis, stopping the growth of bacteria."
+        ]
+    },
+    {
+        "tag": "azithromycin_usage",
+        "patterns": ["What is Azithromycin used for", "When to use Azithromycin", "Who can use Azithromycin", "How is Azithromycin used", "What are the uses of Azithromycin"],
+        "responses": [
+            "Azithromycin is used to treat bacterial infections such as pneumonia, bronchitis, ear infections, and certain sexually transmitted diseases like chlamydia and gonorrhea.",
+            "It is prescribed when other antibiotics might not be effective, or for infections caused by bacteria that are resistant to other treatments.",
+            "Azithromycin is effective for infections in the respiratory system, skin, and soft tissues, among others."
+        ]
+    },
+    {
+        "tag": "azithromycin_side_effects",
+        "patterns": ["What are the side effects of Azithromycin", "Azithromycin side effects", "Are there any side effects of Azithromycin", "What are the risks of taking Azithromycin"],
+        "responses": [
+            "Common side effects of Azithromycin include nausea, vomiting, diarrhea, stomach pain, and headache.",
+            "Serious side effects may include allergic reactions such as rash, itching, or swelling of the face and throat, or severe diarrhea due to Clostridium difficile infection.",
+            "If you experience any severe allergic reactions or unusual symptoms, seek medical help immediately."
+        ]
+    },
+    {
+        "tag": "azithromycin_dosage",
+        "patterns": ["What is the dosage of Azithromycin", "How much Azithromycin should I take", "Azithromycin dosage", "How to take Azithromycin"],
+        "responses": [
+            "The typical adult dose of Azithromycin is 500 mg on the first day, followed by 250 mg once daily for the next 4 days.",
+            "For certain infections, the dosage may vary, and for children, the dosage is based on weight. Always follow your doctor's prescribed dosage.",
+            "Azithromycin can be taken with or without food, but it is recommended to take it at the same time each day."
+        ]
+    },
+    {
+        "tag": "paracetamol_definition",
+        "patterns": ["Tell me about Paracetamol", "What is Paracetamol", "What is the composition of Paracetamol", "Explain Paracetamol"],
+        "responses": [
+            "Paracetamol, also known as acetaminophen, is a common over-the-counter medication used to relieve mild to moderate pain and reduce fever.",
+            "It works by inhibiting the production of chemicals in the brain that cause inflammation, pain, and fever."
+        ]
+    },
+    {
+        "tag": "paracetamol_usage",
+        "patterns": ["What is Paracetamol used for", "When to use Paracetamol", "Who can use Paracetamol", "How is Paracetamol used", "What are the uses of Paracetamol"],
+        "responses": [
+            "Paracetamol is used to treat headaches, toothaches, muscle aches, back pain, and symptoms of the common cold, as well as reducing fever.",
+            "It is widely used for mild to moderate pain relief, and it is commonly used by both adults and children for fever reduction.",
+            "Paracetamol is often used as a first-line medication for pain relief due to its effectiveness and relatively low side-effect profile compared to other pain medications."
+        ]
+    },
+    {
+        "tag": "paracetamol_side_effects",
+        "patterns": ["What are the side effects of Paracetamol", "Paracetamol side effects", "Are there any side effects of Paracetamol", "What are the risks of taking Paracetamol"],
+        "responses": [
+            "Common side effects of Paracetamol are rare but may include nausea or stomach upset in some individuals.",
+            "Serious side effects can include liver damage, especially if Paracetamol is taken in excessive amounts or combined with alcohol.",
+            "If you experience symptoms like yellowing of the skin or eyes, dark urine, or severe stomach pain, seek medical help immediately."
+        ]
+    },
+    {
+        "tag": "paracetamol_dosage",
+        "patterns": ["What is the dosage of Paracetamol", "How much Paracetamol should I take", "Paracetamol dosage", "How to take Paracetamol"],
+        "responses": [
+            "The typical adult dose of Paracetamol is 500 mg to 1000 mg every 4 to 6 hours as needed. The maximum daily dose should not exceed 4000 mg.",
+            "For children, the dose varies based on weight and age. Please consult a pediatrician for the appropriate dosage.",
+            "Paracetamol should be taken with or without food. Always follow the dosage instructions on the label or as prescribed by your doctor."
+        ]
+    },
+    {
+        "tag": "alerid_definition",
+        "patterns": ["Tell me about Alerid", "What is Alerid", "What is the composition of Alerid", "Explain Alerid"],
+        "responses": [
+            "Alerid is a brand name for the drug Cetirizine, an antihistamine used to treat symptoms of allergies, such as runny nose, sneezing, itchy eyes, and itching.",
+            "Cetirizine, the active ingredient in Alerid, works by blocking histamine, a substance in the body that causes allergic symptoms."
+        ]
+    },
+    {
+        "tag": "alerid_usage",
+        "patterns": ["What is Alerid used for", "When to use Alerid", "Who can use Alerid", "How is Alerid used", "What are the uses of Alerid"],
+        "responses": [
+            "Alerid (Cetirizine) is used to relieve allergy symptoms such as sneezing, runny nose, itchy eyes, and hives.",
+            "It is commonly used to treat allergic rhinitis (hay fever), seasonal allergies, and urticaria (hives).",
+            "Alerid can be used by adults and children over the age of 6 to treat allergy symptoms. It is also used for allergic reactions to insect stings or bites."
+        ]
+    },
+    {
+        "tag": "alerid_side_effects",
+        "patterns": ["What are the side effects of Alerid", "Alerid side effects", "Are there any side effects of Alerid", "What are the risks of taking Alerid"],
+        "responses": [
+            "Common side effects of Alerid include drowsiness, headache, dry mouth, and dizziness.",
+            "Rare but serious side effects may include difficulty breathing, swelling of the face or throat, and severe allergic reactions.",
+            "If you experience any severe allergic reactions such as swelling, rash, or difficulty breathing, seek medical help immediately."
+        ]
+    },
+    {
+        "tag": "alerid_dosage",
+        "patterns": ["What is the dosage of Alerid", "How much Alerid should I take", "Alerid dosage", "How to take Alerid"],
+        "responses": [
+            "The usual adult dose of Alerid (Cetirizine) is 10 mg once daily, usually in the evening.",
+            "For children aged 6 to 12 years, the recommended dose is 5 mg to 10 mg once daily, depending on the severity of symptoms.",
+            "Alerid should be taken with or without food, and it is recommended to take it at the same time each day to ensure consistent relief of symptoms."
+        ]
+    },
+    {
+        "tag": "calpol500_definition",
+        "patterns": ["Tell me about Calpol 500", "What is Calpol 500", "What is the composition of Calpol 500", "Explain Calpol 500"],
+        "responses": [
+            "Calpol 500 is a brand of Paracetamol, a widely used over-the-counter medication for pain relief and fever reduction.",
+            "The active ingredient in Calpol 500 is Paracetamol, which works by blocking the production of chemicals in the body that cause pain and inflammation."
+        ]
+    },
+    {
+        "tag": "calpol500_usage",
+        "patterns": ["What is Calpol 500 used for", "When to use Calpol 500", "Who can use Calpol 500", "How is Calpol 500 used", "What are the uses of Calpol 500"],
+        "responses": [
+            "Calpol 500 is used to relieve mild to moderate pain, such as headaches, toothaches, backaches, and muscle aches.",
+            "It is also commonly used to reduce fever caused by conditions like the common cold or flu.",
+            "Calpol 500 is safe for use by adults and children over 12 years of age for pain relief and fever reduction."
+        ]
+    },
+    {
+        "tag": "calpol500_side_effects",
+        "patterns": ["What are the side effects of Calpol 500", "Calpol 500 side effects", "Are there any side effects of Calpol 500", "What are the risks of taking Calpol 500"],
+        "responses": [
+            "Common side effects of Calpol 500 are rare but may include nausea, stomach upset, and allergic reactions.",
+            "Serious side effects of Paracetamol include liver damage, especially in cases of overdose or prolonged use. Always follow the prescribed dosage.",
+            "If you experience symptoms such as skin rash, swelling, or difficulty breathing, seek medical help immediately."
+        ]
+    },
+    {
+        "tag": "calpol500_dosage",
+        "patterns": ["What is the dosage of Calpol 500", "How much Calpol 500 should I take", "Calpol 500 dosage", "How to take Calpol 500"],
+        "responses": [
+            "The usual adult dose of Calpol 500 is 1 to 2 tablets (500 mg to 1000 mg) every 4 to 6 hours as needed. Do not exceed 4000 mg in 24 hours.",
+            "For children aged 12 years and above, the recommended dose is 500 mg to 1000 mg every 4 to 6 hours, not exceeding 4 doses in a 24-hour period.",
+            "Always follow the instructions on the packaging or your doctor's recommendations for safe and effective use."
+        ]
+    },
+    {
+        "tag": "meftalspas_definition",
+        "patterns": ["Tell me about Meftal-Spas", "What is Meftal-Spas", "What is the composition of Meftal-Spas", "Explain Meftal-Spas"],
+        "responses": [
+            "Meftal-Spas is a combination medication that contains Mefenamic Acid and Dicyclomine. It is commonly used to relieve pain and discomfort caused by menstrual cramps and muscle spasms.",
+            "Mefenamic Acid is a nonsteroidal anti-inflammatory drug (NSAID) that works by reducing inflammation and pain, while Dicyclomine is an antispasmodic that helps relieve cramps and spasms."
+        ]
+    },
+    {
+        "tag": "meftalspas_usage",
+        "patterns": ["What is Meftal-Spas used for", "When to use Meftal-Spas", "Who can use Meftal-Spas", "How is Meftal-Spas used", "What are the uses of Meftal-Spas"],
+        "responses": [
+            "Meftal-Spas is primarily used to relieve pain and discomfort associated with menstrual cramps (dysmenorrhea).",
+            "It is also used to treat muscle spasms, abdominal pain, and discomfort due to gastrointestinal issues or other conditions causing cramps.",
+            "Meftal-Spas is commonly prescribed for adult women experiencing menstrual pain and is also used to relieve spasms caused by other conditions."
+        ]
+    },
+    {
+        "tag": "meftalspas_side_effects",
+        "patterns": ["What are the side effects of Meftal-Spas", "Meftal-Spas side effects", "Are there any side effects of Meftal-Spas", "What are the risks of taking Meftal-Spas"],
+        "responses": [
+            "Common side effects of Meftal-Spas include nausea, dizziness, constipation, and dry mouth.",
+            "Serious side effects can include gastrointestinal bleeding, kidney issues, or allergic reactions like swelling, rash, and difficulty breathing.",
+            "If you experience severe stomach pain, blood in stools, or allergic reactions, stop using the medication and seek immediate medical help."
+        ]
+    },
+    {
+        "tag": "meftalspas_dosage",
+        "patterns": ["What is the dosage of Meftal-Spas", "How much Meftal-Spas should I take", "Meftal-Spas dosage", "How to take Meftal-Spas"],
+        "responses": [
+            "The usual adult dose of Meftal-Spas is 1 tablet (250 mg) 3 times a day, preferably with meals.",
+            "For menstrual pain, the first dose can be taken when symptoms appear, followed by subsequent doses as needed.",
+            "Always follow the dosage instructions on the label or as prescribed by your doctor to avoid potential side effects."
+        ]
+    },
+    {
+        "tag": "metformin_definition",
+        "patterns": ["Tell me about Metformin", "What is Metformin", "What is the composition of Metformin", "Explain Metformin"],
+        "responses": [
+            "Metformin is an oral medication used to manage type 2 diabetes by lowering blood sugar levels.",
+            "It works by improving the body's sensitivity to insulin and decreasing the amount of sugar produced by the liver."
+        ]
+    },
+    {
+        "tag": "metformin_usage",
+        "patterns": ["What is Metformin used for", "When to use Metformin", "Who can use Metformin", "How is Metformin used", "What are the uses of Metformin"],
+        "responses": [
+            "Metformin is used to control high blood sugar in people with type 2 diabetes.",
+            "It is typically used along with a healthy diet and exercise program to improve blood sugar control."
+        ]
+    },
+    {
+        "tag": "metformin_side_effects",
+        "patterns": ["What are the side effects of Metformin", "Metformin side effects", "Are there any side effects of Metformin", "What are the risks of taking Metformin"],
+        "responses": [
+            "Common side effects of Metformin include nausea, vomiting, diarrhea, and stomach discomfort.",
+            "Rare but serious side effects include lactic acidosis, a condition where lactic acid builds up in the blood, which can be life-threatening."
+        ]
+    },
+    {
+        "tag": "metformin_dosage",
+        "patterns": ["What is the dosage of Metformin", "How much Metformin should I take", "Metformin dosage", "How to take Metformin"],
+        "responses": [
+            "The usual starting dose of Metformin is 500 mg once or twice daily, with meals.",
+            "The dose may be gradually increased by your doctor, depending on how well your blood sugar is controlled."
+        ]
+    },
+    {
+        "tag": "ibuprofen_definition",
+        "patterns": ["Tell me about Ibuprofen", "What is Ibuprofen", "What is the composition of Ibuprofen", "Explain Ibuprofen"],
+        "responses": [
+            "Ibuprofen is a nonsteroidal anti-inflammatory drug (NSAID) used to reduce fever, pain, and inflammation.",
+            "It works by blocking the enzymes responsible for producing prostaglandins, chemicals that promote inflammation and pain."
+        ]
+    },
+    {
+        "tag": "ibuprofen_usage",
+        "patterns": ["What is Ibuprofen used for", "When to use Ibuprofen", "Who can use Ibuprofen", "How is Ibuprofen used", "What are the uses of Ibuprofen"],
+        "responses": [
+            "Ibuprofen is commonly used to relieve pain from conditions like headaches, toothaches, and muscle pain.",
+            "It is also used to reduce fever and inflammation associated with arthritis and other conditions."
+        ]
+    },
+    {
+        "tag": "ibuprofen_side_effects",
+        "patterns": ["What are the side effects of Ibuprofen", "Ibuprofen side effects", "Are there any side effects of Ibuprofen", "What are the risks of taking Ibuprofen"],
+        "responses": [
+            "Common side effects of Ibuprofen include stomach upset, dizziness, and headache.",
+            "Serious side effects can include gastrointestinal bleeding, kidney damage, and increased risk of heart attack or stroke with long-term use."
+        ]
+    },
+    {
+        "tag": "ibuprofen_dosage",
+        "patterns": ["What is the dosage of Ibuprofen", "How much Ibuprofen should I take", "Ibuprofen dosage", "How to take Ibuprofen"],
+        "responses": [
+            "The usual adult dose of Ibuprofen is 200-400 mg every 4-6 hours, not exceeding 1,200 mg per day without doctor supervision.",
+            "For children, the dosage is based on their weight and age. Always refer to the product label or your doctor’s instructions."
+        ]
+    },
+    {
+        "tag": "amlodipine_definition",
+        "patterns": ["Tell me about Amlodipine", "What is Amlodipine", "What is the composition of Amlodipine", "Explain Amlodipine"],
+        "responses": [
+            "Amlodipine is a calcium channel blocker used to treat high blood pressure and chest pain (angina).",
+            "It works by relaxing the blood vessels, which allows the heart to pump blood more easily, reducing blood pressure and angina symptoms."
+        ]
+    },
+    {
+        "tag": "amlodipine_usage",
+        "patterns": ["What is Amlodipine used for", "When to use Amlodipine", "Who can use Amlodipine", "How is Amlodipine used", "What are the uses of Amlodipine"],
+        "responses": [
+            "Amlodipine is used to treat high blood pressure and to prevent chest pain (angina).",
+            "It is often prescribed as part of a treatment plan that includes lifestyle changes such as diet and exercise."
+        ]
+    },
+    {
+        "tag": "amlodipine_side_effects",
+        "patterns": ["What are the side effects of Amlodipine", "Amlodipine side effects", "Are there any side effects of Amlodipine", "What are the risks of taking Amlodipine"],
+        "responses": [
+            "Common side effects of Amlodipine include swelling in the legs or ankles, dizziness, and flushing.",
+            "Serious side effects can include very low blood pressure, heart palpitations, and chest pain."
+        ]
+    },
+    {
+        "tag": "amlodipine_dosage",
+        "patterns": ["What is the dosage of Amlodipine", "How much Amlodipine should I take", "Amlodipine dosage", "How to take Amlodipine"],
+        "responses": [
+            "The typical adult dose of Amlodipine is 5 mg once daily. The dose may be increased depending on your doctor's recommendations.",
+            "For blood pressure management, the dose usually starts at 5 mg, but for angina, the dose may be adjusted based on your condition."
+        ]
+    }
+
+]
