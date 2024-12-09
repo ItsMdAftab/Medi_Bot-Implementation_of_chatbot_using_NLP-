@@ -9,10 +9,22 @@ import random
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
 
-ssl._create_default_https_context = ssl._create_unverified_context
-nltk.data.path.append(os.path.abspath("nltk_data"))
-nltk.download('punkt')
+# Specify a custom path for NLTK data
+nltk_data_path = os.path.join(os.getcwd(), 'nltk_data')
+if not os.path.exists(nltk_data_path):
+    os.makedirs(nltk_data_path)
 
+# Add the custom directory to NLTK's data path
+nltk.data.path.append(nltk_data_path)
+
+# Download the 'punkt' tokenizer if not already present
+if not os.path.exists(os.path.join(nltk_data_path, 'tokenizers/punkt')):
+    nltk.download('punkt', download_dir=nltk_data_path)
+
+# This will bypass SSL verification, which is necessary for some environments
+ssl._create_default_https_context = ssl._create_unverified_context
+
+# Load intents from the JSON file
 file_path = os.path.abspath("./intents.json")
 with open(file_path, "r") as file:  
     intents = json.load(file)
@@ -87,11 +99,12 @@ Just type the name of any medication, and I’ll do the rest! Let’s get your h
                 st.write("Thank you for chatting with me. Have a great day!")
                 st.stop()
 
+
     elif choice == "Conversation History":
         st.header("Conversation History")
         with open('chat_log.csv', 'r', encoding='utf-8') as csvfile:
             csv_reader = csv.reader(csvfile)
-            next(csv_reader) 
+            next(csv_reader)
             for row in csv_reader:
                 st.text(f"User: {row[0]}")
                 st.text(f"Chatbot: {row[1]}")
