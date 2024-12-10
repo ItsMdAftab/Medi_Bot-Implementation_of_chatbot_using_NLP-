@@ -50,6 +50,7 @@ def chatbot(input_text):
         if intent['tag'] == tag:
             response = random.choice(intent['responses'])
             return response
+     return "I'm not sure about that. Could you please rephrase your question and make sure to write the correct medicine name in all lowercase letters?"
         
 counter = 0
 
