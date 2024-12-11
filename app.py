@@ -73,8 +73,7 @@ I can help you with details like:
 - **Side effects** – What could go wrong? (But don’t worry, I’ll keep it light!)
 - **Dosage** – How much should you take? (No need for math – I’ve got you covered!)
 
-Just type the name of any medication, and I’ll do the rest! Let’s get your health knowledge up to speed!
-Please make sure to provide the exact name of the medication. If you need more assistance, refer to the 'About' section in the menu.
+Please provide the exact medication name. For more help, check the 'About' section.
 """)
 
         if not os.path.exists('chat_log.csv'):
