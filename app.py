@@ -44,6 +44,7 @@ y = tags
 clf.fit(x, y)
 
 def chatbot(input_text):
+    input_text = input_text.lower().strip()
     input_text = vectorizer.transform([input_text])
     tag = clf.predict(input_text)[0]
     
@@ -51,8 +52,6 @@ def chatbot(input_text):
         if intent['tag'] == tag:
             response = random.choice(intent['responses'])
             return response
-    
-    return "I'm not sure about that. Could you please rephrase your question and make sure to write the correct medicine name in all lowercase letters?"
 
 counter = 0
 
@@ -75,6 +74,7 @@ I can help you with details like:
 - **Dosage** – How much should you take? (No need for math – I’ve got you covered!)
 
 Just type the name of any medication, and I’ll do the rest! Let’s get your health knowledge up to speed!
+# #Please make sure to provide the exact name of the medication. If you need more assistance, refer to the 'About' section in the menu.##
 """)
 
         if not os.path.exists('chat_log.csv'):
